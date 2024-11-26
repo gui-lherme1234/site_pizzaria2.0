@@ -1,0 +1,157 @@
+section {
+    background-color: #c7aa90;
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+ }
+   
+.secao-produtos{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+ }
+    
+.secao-produtos p{
+    font-size: 1.1rem;
+ }
+    
+ .titulos{
+    margin-bottom: 25px;
+}
+    
+.carro img{
+    display: grid;
+    grid-row: 2fr 2fr;
+    gap: 15px;
+    margin: 50px 0px;
+}
+    
+ .card-oculos picture img{
+    width: 80%;
+    height: auto;
+    max-height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+.card-oculos{
+    background-color: #f1e2bb;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-oculos h3{
+        font-size: 2rem;
+ }
+
+.card-oculos p{
+    font-weight: 600;
+    font-size: 1.25rem;
+ }
+
+ .lista-oculos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 0px 20px;
+
+
+
+ .lista-oculos p{
+  font-weight: 600;
+  font-size: 1.1;
+  margin-bottom: 25px;
+ }
+  }
+
+  .carros-antigos {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+  
+  .carro {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    flex-basis: calc(50% - 10px); 
+  }
+  
+  img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .produtos-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #c7aa90;
+  }
+
+  .produtos-container p{
+    font-size:20px;
+    font-family: 'Brush Script', cursive;
+  }
+
+  .produtos-container h1{
+    font-family: 'Brush Script', cursive;
+    font-weight: bold;
+  }
+  
+  .produtos-imagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 30px; /* Espaçamento entre as células */
+  
+    padding: 10px;
+  }
+  
+  .produto {
+    text-align: justify; /* Centraliza o título e a imagem */
+    display: flex;
+    flex-direction: column; /* Organiza a imagem e o texto em coluna */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px; /* Borda entre os produtos */
+    background-color: #c7aa90;
+  }
+  
+  .produto img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 30px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .produto p {
+    text-align: justify; /* Justifica o texto */
+    margin-top: 20px; /* Espaço acima do texto */
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6;
+    font-family: 'Brush Script', cursive;
+    font-style: oblique;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Brush Script', cursive;
+  }
+  
