@@ -1,0 +1,79 @@
+#sobre {
+    background-color: #c7aa90;
+    padding: 100px 0px;
+  }
+  
+  .sobre.center {
+    text-align: center;
+  }
+  
+  .sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+  
+  .sobre p {
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+  }
+  
+  .elementos-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #a2adad;
+  }
+  
+  .texto-sobre h4,
+  .texto-elementos h4 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+  
+  .texto-sobre p,
+  .texto-elementos p {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    line-height: 1.5;
+  }
+  
+  /* Container que contém as imagens */
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada imagem */
+  .about-pic {
+    position: relative;
+    width: 20%;
+    border-radius: 30%;
+    border: 2px solid black;
+    overflow: hidden;
+  }
+  
+  /* Garantindo que as imagens se ajustem ao tamanho do container */
+  .about-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estilos para as legendas */
+  .about-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  /* Estilo do título acima das imagens */
+  .about-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
